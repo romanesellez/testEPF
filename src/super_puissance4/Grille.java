@@ -15,7 +15,7 @@ public class Grille {
 Grille(){
   for (int i=0;i<6;i++){
      for (int j=0;j<7;j++){
-         Cellules[i][j]=new Cellule();
+         Cellules[i][j]=new Cellule(boolean presencedetrouNoir;boolean presencededesintegrateur;Jeton jetonCourant);
         }
     }
 }
